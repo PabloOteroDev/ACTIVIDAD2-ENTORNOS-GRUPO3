@@ -51,7 +51,7 @@ public class _01_TestSoldado {
 	}
 
 	
-	@Test //movida cuando tiene bala que pegue tiros
+	@Test //comprobar cuando tiene bala que pegue tiros
 	public void testPuedeDisparar1() {
 		
 		s1.setNumeroBalas(0);
@@ -75,7 +75,7 @@ public class _01_TestSoldado {
 		
 	}
 	
-	@Test //movida matar
+	@Test //comprobar lo de matar
 	public void disparar() {
 		
 		Soldado s2 = new Soldado(false,0);
